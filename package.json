@@ -1,0 +1,42 @@
+{
+  "name": "alfred-camelize",
+  "version": "1.0.0",
+  "description": "Alfred 3 workflow to camelize text",
+  "license": "MIT",
+  "repository": "incleaf/alfred-camelize",
+  "author": {
+    "name": "Hyeonsu Lee",
+    "email": "incleaf@gmail.com",
+    "url": "https://hyeonsulee.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "camelize",
+    "find",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "lodash.camelcase": "^4.3.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "*",
+    "xo": "*"
+  }
+}
